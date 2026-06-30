@@ -1,14 +1,14 @@
 # yaml-language-server: $schema=https://schema.buildwithfern.dev/docs-yml.json
 
 instances:
-  - url: primary-status.docs.buildwithfern.com
+  - url: deta-work.docs.buildwithfern.com
     edit-this-page:
       github:
         owner: fern-starter
         repo: primary-status-wlokqm6s
         branch: main
       launch: dashboard
-title: primary-status | Documentation
+title: deta-work | Documentation
 layout:
   searchbar-placement: header
   page-width: full
@@ -17,9 +17,6 @@ tabs:
   home:
     display-name: Home
     icon: home
-  API Reference:
-    display-name: API Reference
-    icon: puzzle
 navigation:
   - tab: home
     layout:
@@ -46,17 +43,6 @@ navigation:
       - section: Changelog
         contents:
           - changelog: docs/changelog
-  - tab: API Reference
-    layout:
-      - section: Overview
-        contents:
-          - page: API reference
-            path: docs/pages/api-reference-overview.mdx
-            icon: fa-duotone fa-book
-      - api: Swagger Plant Store - OpenAPI 3.1
-        api-name: example-openapi
-      - api: Plant Store AsyncAPI
-        api-name: example-asyncapi
 navbar-links:
   - type: filled
     text: Edit

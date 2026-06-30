@@ -1,6 +1,6 @@
 {
-  "desiredContentHash": "615806d2265e55a0d6d697e77e5b672f98c6ace1f38848f8cfcfb185a3329c5e",
-  "docsUrl": "https://primary-status.docs.buildwithfern.com",
+  "desiredContentHash": "b3e9018f26ce385cb8ade605af89e5d0ff095ff43966e83c3ad48ede68f83c24",
+  "docsUrl": "https://deta-work.docs.buildwithfern.com",
   "starter": {
     "repoOwner": "fern-api",
     "repoName": "docs-starter-internal",
